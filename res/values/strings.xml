@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hurrier</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hello_world">HelloWorld</string>
+    <string name="login_button">Login with twitter</string>
+    <string name="logout_button">Logout</string>
+    <string name="title_activity_welcome">Welcome Activity</string>
+    <string name="update_status">Update Status</string>
+    <string name="tweet_button">Tweet</string>
+    <string name="search_activity">Search Tags</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="status_tm">Status</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="listitem">ListItem</string>
+    <string name="photo">Photo</string>
+    <string name="title_activity_mention">MentionActivity</string>
+    <string name="search_mentions">Search Your Mentions</string>
+    <string name="search_user_mentions">Your Tweets</string>
+    <string name="title_activity_mention_search">MentionSearchActivity</string>
+    <string name="title_activity_user_mention">UserMentionActivity</string>
+    <string name="title_activity_user_status">UserStatusActivity</string>
+
+</resources>

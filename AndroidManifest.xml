@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hurrier"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- packaging information -->
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hurrier.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="t4jsample"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hurrier.HelloWorld"
+            android:label="@string/title_activity_hello_world" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hurrier.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.StatusActivity"
+            android:label="@string/title_activity_status" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.MentionActivity"
+            android:label="@string/title_activity_mention" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.MentionSearchActivity"
+            android:label="@string/title_activity_mention_search" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.UserMentionActivity"
+            android:label="@string/title_activity_user_mention" >
+        </activity>
+        <activity
+            android:name="com.example.hurrier.UserStatusActivity"
+            android:label="@string/title_activity_user_status" >
+        </activity>
+        <service android:name="com.example.hurrier.ToastService" >
+        </service>
+    </application>
+
+</manifest>
